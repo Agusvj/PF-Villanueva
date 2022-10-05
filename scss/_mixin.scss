@@ -1,0 +1,9 @@
+@mixin text ($fontsize, $fontweigth, $fontstyle, $decoration){
+    font-size: $fontsize;
+    font-weight: $fontweigth;
+    font-style: $fontstyle;
+    text-decoration: $decoration;
+}
+
+// @include text(3em, bold, normal, none);
+

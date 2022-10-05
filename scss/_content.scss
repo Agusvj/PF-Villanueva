@@ -1,0 +1,36 @@
+//index
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)), url(../img/ppal.webp);
+    height: 80vh;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    h1 {
+        @include text(3em, bold, normal, none);
+    }
+}
+
+
+//resultados
+
+div {
+    p {
+        .midas{
+            @include text(1em, bolder , italic, underline);
+            color: white;
+            &:hover {
+                color: rgba(212, 175, 55, 0.5);
+                transition-duration: 0.7s;
+            }
+            }
+        }
+    }

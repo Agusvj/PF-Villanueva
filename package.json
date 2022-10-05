@@ -1,0 +1,24 @@
+{
+  "name": "platinum3.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+		"sass:watch": "sass --watch scss/main.scss  css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agusvj/PreEntrega2-Villanueva.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Agusvj/PreEntrega2-Villanueva/issues"
+  },
+  "homepage": "https://github.com/Agusvj/PreEntrega2-Villanueva#readme",
+  "dependencies": {
+    "sass": "^1.55.0"
+  }
+}
