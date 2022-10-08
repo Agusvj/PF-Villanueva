@@ -82,6 +82,14 @@ $paleta:(
     }
 }
 
+.botones-programas {
+    @extend .botones;
+    @media (min-width:768px) {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
 // iconos&misc
 
 .iconos {
