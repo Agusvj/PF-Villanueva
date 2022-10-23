@@ -46,6 +46,8 @@
             "fotoC fotoD"
             "fotoC fotoA"
         ;
+
+
     }
 
     @media (min-width:1200px){
@@ -78,11 +80,16 @@
 
 // media formulario
 
-@media (min-width:768px){
-    .md-w-50 {
+
+.md-w-50 {
+    @media (min-width:768px){
+
         width: 50%;
+
     }
-}
+    
+    }
+
 
 
 //media-footer-icon

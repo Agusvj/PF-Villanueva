@@ -90,6 +90,11 @@ header .navbar-brand {
 header .navbar-brand img {
   width: 60%;
 }
+@media (min-width: 280px) and (max-width: 768px) {
+  header .navbar-brand img {
+    width: 100%;
+  }
+}
 header .nav-item .nav-link {
   text-decoration: none;
   background-image: linear-gradient(currentColor, currentColor);
@@ -161,6 +166,7 @@ header .nav-item .nav-link:hover, header .nav-item .nav-link:focus {
     width: 50%;
   }
 }
+
 @media (min-width: 280px) and (max-width: 340px) {
   .icon-280 {
     width: 20px;
