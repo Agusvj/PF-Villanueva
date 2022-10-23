@@ -7,25 +7,25 @@ Esta es una pagina de una empresa ficticia que busca hacer llegar sus entrenamie
 
 ## Tecnologias aplicadas
 
--Bootstrap
--CSS
--HTML
--SASS
+- Bootstrap
+- CSS
+- HTML
+- SASS
 
-##Links
+## Links
 
 Visualizar en
 
 
--GitHub pages
+- GitHub pages
 
 https://agusvj.github.io/PF-Villanueva/
 
--Netlify:
+- Netlify:
 
 https://platinum-personaltraining.netlify.app
 
 
--Repositorio
+- Repositorio
 
 https://github.com/Agusvj/PF-Villanueva.git
